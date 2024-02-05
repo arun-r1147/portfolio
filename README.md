@@ -1,1 +1,3 @@
 # portfolio
+
+its about me , what i am , what i am done in my development career and how to reach me!....
