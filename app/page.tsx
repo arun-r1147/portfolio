@@ -17,9 +17,7 @@ export default function Home() {
           </h1>
           <p className="text-gray-200 md:block hidden">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-            voluptatum consectetur, nemo perspiciatis, doloremque aspernatur id
-            molestiae deserunt aliquam, corporis deleniti asperiores architecto
-            voluptas maxime a unde nam mollitia ab?
+            voluptatum consectetur, nemo perspiciatis, doloremque aspernatur 
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
@@ -30,14 +28,14 @@ export default function Home() {
             </Link>
             <Link
               href="/my-projects"
-              className="rounded-[20px] relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My Projects
             </Link>
             <Link
               href="/contact-me"
-              className="rounded-[20px] relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] relativebg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               Contact me
@@ -54,13 +52,13 @@ export default function Home() {
         </Link>
         <Link
           href="/my-projects"
-          className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px]bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           My Projects
         </Link>
         <Link
           href="/contact-me"
-          className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px]bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Contact me
         </Link>
