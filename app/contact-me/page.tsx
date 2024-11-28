@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function page() {
   return (
-    <div>contact-me</div>
-  )
+    <main className="w-screen h-screen relative">
+      <div
+        className="flex w-full h-full items-center bg-cover bg-center"
+        style={{ backgroundImage: "url(/main-bg.webp)" }}
+      ></div>
+    </main>
+  );
 }
 
-export default page
+export default page;
